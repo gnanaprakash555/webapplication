@@ -204,7 +204,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (s3 != null) {
 					s3.close();
 				}
@@ -212,7 +213,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (rs != null) {
 					rs.close();
 				}
@@ -220,7 +222,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (s != null) {
 					s.close();
 				}
@@ -228,7 +231,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (s1 != null) {
 					s1.close();
 				}
@@ -236,7 +240,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (s2 != null) {
 					s2.close();
 				}
@@ -320,7 +325,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (pt1 != null) {
 					pt1.close();
 				}
@@ -409,7 +415,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (pt1 != null) {
 					pt1.close();
 				}
@@ -546,7 +553,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (rs3 != null) {
 					rs3.close();
 				}
@@ -554,7 +562,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (rs4 != null) {
 					rs4.close();
 				}
@@ -562,7 +571,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (pt != null) {
 					pt.close();
 				}
@@ -570,7 +580,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (pt3 != null) {
 					pt3.close();
 				}
@@ -578,7 +589,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (pt4 != null) {
 					pt4.close();
 				}
@@ -604,7 +616,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (p != null) {
 					p.close();
 				}
@@ -612,7 +625,8 @@ public class EmployeeDataAccess {
 				e1.printStackTrace();
 				System.err.println(e1.getClass().getName() + ": " + e1.getMessage());
 				System.exit(0);
-			}try {
+			}
+			try {
 				if (p1 != null) {
 					p1.close();
 				}

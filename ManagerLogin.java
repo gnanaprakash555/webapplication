@@ -19,14 +19,20 @@ public class ManagerLogin extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		int id = Integer.parseInt(request.getParameter("manager_id"));
-		String username = request.getParameter("manager_id");
+
 		String pass = request.getParameter("userPass");
 		if (pass.equals("icici")) {
+			HttpSession oldSession = request.getSession(false);
+			if (oldSession != null) {
+				oldSession.invalidate();
+			}
+
+			HttpSession newSession = request.getSession(true);
+			newSession.setMaxInactiveInterval(5 * 60);
 
 			RequestDispatcher rd = request.getRequestDispatcher("/ManagerIndex.html");
 			rd.forward(request, response);
-			HttpSession session1 = request.getSession();
-			session1.setAttribute("name", username);
+
 		} else {
 			out.print("Sorry UserName or Password Error!");
 			RequestDispatcher rd = request.getRequestDispatcher("/ManagerLogin.html");
