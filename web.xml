@@ -19,10 +19,11 @@
   <filter>
         <filter-name>ManagerAuthenticationFilter</filter-name>
         <filter-class>webapplication.ManagerAuthenticationFilter</filter-class>
-    </filter>
+  </filter>
     <filter-mapping>
-     <filter-name>ManagerAuthenticationFilter</filter-name>
-     <url-pattern>/delete/*</url-pattern>
-        <url-pattern>/create/*</url-pattern>
+        <filter-name>ManagerAuthenticationFilter</filter-name>
+         <url-pattern>/delete/*</url-pattern>
+          <url-pattern>/create/*</url-pattern>
+         <url-pattern>/managerlogout/*</url-pattern>
      </filter-mapping>
 </web-app>
